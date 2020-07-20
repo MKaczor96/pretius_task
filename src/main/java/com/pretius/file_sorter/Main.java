@@ -1,5 +1,6 @@
 package com.pretius.file_sorter;
 
+import com.pretius.file_sorter.sorter.FileSorter;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
@@ -8,7 +9,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-import static com.pretius.file_sorter.Directory.*;
+import static com.pretius.file_sorter.enums.Directory.*;
 
 class Main {
 

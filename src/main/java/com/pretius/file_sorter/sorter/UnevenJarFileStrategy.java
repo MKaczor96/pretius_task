@@ -1,5 +1,7 @@
-package com.pretius.file_sorter;
+package com.pretius.file_sorter.sorter;
 
+import com.pretius.file_sorter.enums.Directory;
+import com.pretius.file_sorter.util.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 
 import java.io.File;

@@ -1,5 +1,6 @@
-package com.pretius.file_sorter;
+package com.pretius.file_sorter.sorter;
 
+import com.pretius.file_sorter.enums.Directory;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.io.filefilter.TrueFileFilter;
@@ -7,7 +8,7 @@ import org.apache.commons.io.filefilter.TrueFileFilter;
 import java.io.File;
 import java.util.List;
 
-class FileSorter {
+public class FileSorter {
 
     private FileSorter() {
 

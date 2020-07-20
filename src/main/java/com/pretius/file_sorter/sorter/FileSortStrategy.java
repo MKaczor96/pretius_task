@@ -1,4 +1,4 @@
-package com.pretius.file_sorter;
+package com.pretius.file_sorter.sorter;
 
 import java.io.File;
 
