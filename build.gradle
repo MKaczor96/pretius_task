@@ -1,0 +1,23 @@
+plugins {
+    id 'application'
+    id 'java'
+}
+
+ext {
+    javaMainClass = "com.pretius.file_sorter.Main"
+}
+
+group 'com.pretius'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "commons-io:commons-io:2.7"
+}
+
+application {
+    mainClassName = javaMainClass
+}
